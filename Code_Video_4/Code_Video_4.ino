@@ -5,7 +5,6 @@ void setup() {
   pinMode(7, OUTPUT);
 }
 
-void loop() {
   move_forward(); // These are called "Functions"
   move_left();    // A function relates to a piece of code somewhere in the sketch.
   move_backward();// For example if we take move_forward it's in the bottom part of the sketch as "void move_forward"
