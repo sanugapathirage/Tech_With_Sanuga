@@ -13,9 +13,3 @@ void loop() {
   Serial.println(sonar.ping_cm());
   delay(1000);
 }
-
-
-
-
-
-
